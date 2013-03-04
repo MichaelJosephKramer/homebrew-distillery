@@ -2,7 +2,7 @@ require 'formula'
 
 class TmuxIterm2 < Formula
   url 'https://iterm2.googlecode.com/files/tmux-for-iTerm2-20130302.tar.gz'
-  md5 '9acb1ed1c3f0e24180c6e2e65e512670'
+  sha1 '83d1389eb55b55bc069e0b66a11aa0a8faf9cddd'
   homepage 'http://github.com/gnachman/tmux2'
 
   depends_on 'libevent'
