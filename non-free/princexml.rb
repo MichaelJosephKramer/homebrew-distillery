@@ -3,7 +3,7 @@ require 'formula'
 class Princexml < Formula
   homepage 'http://www.princexml.com'
   url 'http://www.princexml.com/download/prince-8.0-macosx.tar.gz'
-  md5 '0d17a2e9c82277ed5d039444ebf9cecd'
+  sha256 "6fa7f1cf15d261775224828f172b64df3313fa03387deaaff68733515c5a48ee"
 
   def patches
     # Drop the user input since we're providing the prefix
